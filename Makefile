@@ -48,4 +48,4 @@ test_write:	test_write.o Labeled_GPS.o GPS.o Core.o ecs36b_JSON.o JvTime.o
 	$(CC) -o test_write test_write.o Labeled_GPS.o GPS.o Core.o ecs36b_JSON.o JvTime.o $(LDFLAGS)
 
 clean:
-	rm -f *.o *~ core poclient poserver poclient.h poserver.h
+	rm -f *.o *~ core test_read test_write
